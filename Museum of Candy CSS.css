@@ -1,0 +1,64 @@
+body {
+    background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;
+}
+
+.sectionelement h2 {
+    color:#ea1c2c;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.sectionelement p {
+    color:#f498b8;
+    font-weight:100;
+    font-size:1.125rem;
+    line-height: 2;
+}
+
+a.navbar-brand {
+    font-size:1.5rem;
+    font-weight:100;
+    color: #ea1c2c;
+}
+
+a.nav-link {
+    font-weight:100;
+    font-size:1.5rem;
+    color: white;
+    transition: color 0.2s ease-in-out;
+}
+
+a.nav-link:hover {
+    color: #ea1c2c;
+}
+
+.navbar-toggler {
+    background-color: #f3bad6 ;
+}
+
+#museumtitle span {
+    color: #ea1c2c;
+}
+#museumtitle h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.container-fluid {
+    margin-bottom:100px;
+}
+
+.navbar.scrolled {
+    background-color: #dec0de;
+    transition: background-color 400ms ease-in-out;
+}
+
+
+@media (max-width:1200px) {
+    #museumtitle h1 {
+        font-size: 3rem;
+    }
+}
+
+
